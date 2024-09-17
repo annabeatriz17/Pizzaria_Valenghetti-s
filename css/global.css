@@ -33,7 +33,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: white;
-    font-size: larger;
+    font-size: large;
 }
 
 main {
@@ -50,3 +50,11 @@ footer {
     width: 100%;
     bottom: 0;
 }
+.pizza.Home {
+    width: 550px;         
+    height: auto;         
+    position: absolute;   
+    right: 0;             
+    top: 50%;             
+    transform: translateY(-50%); 
+  }
