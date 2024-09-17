@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.pizza.Home {
+    width: 550px;         
+    height: auto;         
+    position: absolute;   
+    right: 0;             
+    top: 50%;             
+    transform: translateY(-50%); 
+  }
