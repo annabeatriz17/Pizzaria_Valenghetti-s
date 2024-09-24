@@ -155,6 +155,11 @@ p {
     }
 }
 
+.container-bebidas {
+    justify-content: center;
+    display: flex;
+}
+
 h1 {
     text-align: center;
     color: #333;
