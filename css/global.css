@@ -65,13 +65,13 @@ footer {
 h2, h3 {
     text-align: center;
     margin-top: 20px;
-    color: #ffffff;
+    color: #000000;
 }
 
 p {
     text-align: center;
     margin-top: 20px;
-    color: #ffffff;
+    color: #000000;
 }
 
 .menu-lista {
@@ -82,7 +82,7 @@ p {
 }
 
 .menu-lista li {
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     margin: 20px 0;
     padding: 15px;
     border-radius: 8px;
@@ -102,6 +102,9 @@ p {
 
 .menu-lista strong {
     color: #333;
+}
+.menu-lista li h4 p strong {
+    flex-direction: row;
 }
 
 /* Responsividade para dispositivos móveis */
